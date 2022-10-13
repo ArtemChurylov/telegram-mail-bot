@@ -1,0 +1,7 @@
+telegram:
+  botPath:
+  botToken:
+
+spring:
+  mail:
+    password:

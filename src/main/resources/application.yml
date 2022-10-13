@@ -1,0 +1,14 @@
+server:
+  port: 35420
+
+telegram:
+  botUsername: '@wsh_mail_bot'
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: wsh.mail.bot.noreply@gmail.com
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
