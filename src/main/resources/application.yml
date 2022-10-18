@@ -1,14 +1,17 @@
 server:
-  port: 35420
+  port: 5000
 
 telegram:
   botUsername: '@wsh_mail_bot'
+  botToken:
+  botPath:
 
 spring:
   mail:
     host: smtp.gmail.com
     port: 587
     username: wsh.mail.bot.noreply@gmail.com
+    password:
     properties:
       mail.smtp.auth: true
       mail.smtp.starttls.enable: true
